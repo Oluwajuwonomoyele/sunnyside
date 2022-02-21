@@ -201,6 +201,96 @@ a {
     border-radius: 5px;
 }
 
+/* services section styling */
+.services-section {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    height: 85vh;
+    text-align: center;
+    color: var(--dark-desaturated-cyan);
+    line-height: 2rem;
+}
+.services-section h2 {
+    font-family: 'Fraunces', sans-serif;
+    margin-bottom: 3rem;
+}
+.services-section .left-col {
+    background-image: url('./images/desktop/image-graphic-design.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 5rem 12rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+}
+.services-section .right-col {
+    background-image: url('./images/desktop/image-photography.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 5rem 12rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+/* testimonial section start */
+.testimonial-section {
+    width: 100%;
+    padding: 12rem 4rem;
+    text-align: center;
+    line-height: 2rem;
+}
+.testimonial-section h2 {
+    color: var(--dark-grayish-blue);
+    text-transform: uppercase;
+    font-family: 'Fraunces', sans-serif;
+    letter-spacing: 0.5rem;
+    margin-bottom: 5rem;
+}
+.cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 0 7rem;
+}
+.card-content {
+    padding: 2rem;
+}
+.card-content img {
+    width: 6rem;
+    margin-bottom: 4rem;
+    border-radius: 50%;
+}
+.card-content p {
+    color: var(--dark-grayish-blue);
+    margin-bottom: 4rem;
+}
+.card-content span {
+    font-family: 'Fraunces', sans-serif;
+    font-weight: 900;
+    color: var(--very-dark-desaturated-blue);
+}
+.card-content cite {
+    display: block;
+    font-style: normal;
+    color: var(--dark-grayish-blue);
+}
+
+/* projects section styling */
+.projects-section {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.projects-section img {
+    width: 25%;
+}
+
+
+
 
 
 
