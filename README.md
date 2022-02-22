@@ -10,11 +10,9 @@ This is a solution to the [Sunnyside agency landing page challenge on Frontend M
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 ## Overview
 The Sunny side agency landing page is a project i worked on with html, pure css and vanilla javascript, vanilla javascript for the navigation bar mobile view toggle functionality.
