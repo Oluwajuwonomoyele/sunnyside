@@ -45,7 +45,12 @@ a {
 .navbar {
     background-color: var(--primary);
     width: 100%;
-}
+    top: 0;
+    left: 0;
+    position: fixed;
+    transition: all 0.4s ease;
+    z-index: 9999;
+}   
 .navbar .container {
     display: flex;
     align-items: center;
@@ -95,6 +100,7 @@ a {
     background: url('images/home.jpg') no-repeat center;
     background-size: cover;
     height: 88vh;
+    margin-top: 5rem;
     padding-top: 6rem;
     text-align: center;
     color: var(--white);
