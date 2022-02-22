@@ -1,6 +1,188 @@
-@media (max-width: 400px) {
-    body {
+@media (max-width: 500px) {
+    html {
         width: 100%;
+    }
+    body {
+        font-size: 12px;
+    }
+
+    /* navbar styling start */
+    .navbar .container {
+        padding: 2rem 1.5rem;
+    }
+    .navbar .mobile-menu {
+        position: absolute;
+        top: 6rem;
+        left: 6%;
+        width: 86%; 
+        z-index: 999;
+        display: none;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: flex-end;
+    }
+    .navbar .mobile-menu .triangle {
+        width:0;
+        height: 0;
+        border-bottom: 2.5rem solid var(--white);
+        border-left: 2.5rem solid transparent;
+    }
+    .navbar .mobile-menu.active {
+        display: flex;
+    }
+    .navbar .menu {
+        background-color: var(--white);
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-top: -1px;
+        padding: 2.5rem 0;
+    }
+    .navbar .menu li {
+        display: block;
+        margin: 1rem 0;
+    }
+    .navbar .menu li a {
+        color: var(--dark-grayish-blue);
+        font-size: 1.2rem;
+        transition: all 0.3s ease;
+    }
+    .navbar .menu li a:hover {
+        text-transform: none;
+        font-family: var(--barlow);
+        transform: scale(1.2);
+    }
+    .navbar .menu .btn {
+        background-color: var(--yellow);
+        color: var(--black);
+        text-transform: uppercase;
+        font-family: var(--fraunces);
+        padding: 1rem 2rem;
+    }
+    .navbar .menu .btn:hover {
+        opacity: 0.5 !important;
+    }
+    .navbar .menu-btn {
+        display: block;
+        color: var(--white);
+        cursor: pointer;
+        transition: all 0.3s ease;
+    }
+    .navbar .menu-btn i.active::before {
+        content: "\f00d";
+    }
+    
+
+    /* home section start */
+    .home-section {
+        font-size: 2rem;
+        text-transform: uppercase;
+        height: 70vh;
+    }
+
+    /* about section styling */
+    .about-section {
+        flex-direction: column-reverse;
+    }
+    #about h2 {
+        font-size: 2rem;
+    }
+    #about  p {
+        font-size: 1.2rem;
+    }
+    .about-section .right-col {
+        width: 100%;
+    }
+    .about-section .left-col {
+        padding:  5rem 2rem;
+        width: 100%;
+        text-align: center;
+    }
+    .about-section2 {
+        flex-direction: column;
+    }
+    .about-section2 .left-col2 {
+        width: 100%;
+    } 
+    .about-section2 .right-col2 {
+        width: 100%;
+        padding:  5rem 2rem;
+        text-align: center;
+    } 
+    .about-section2 .right-col2 a::before {
+        background: var(--soft-red);
+    }
+
+    /* services styling section */
+    .services-section {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+    .services-section h2 {
+        font-size: 1.9rem;
+        font-weight: 900;
+    }
+    .services-section p {
+        font-size: 1.1rem;
+        font-weight: 900;
+    }
+    .services-section .left-col {
+        height: 70vh;
+        padding: 4rem 1rem;
+    }
+    .services-section .right-col {
+        height: 70vh;
+        padding: 4rem 1rem;
+    }
+
+    /* testimonials styling start */
+    .testimonial-section {
+        padding: 5rem 1rem;
+        text-align: center;
+        line-height: 2rem;
+    }
+    .testimonial-section h2 {
+        font-size: 1.1rem;
+        letter-spacing: 0.2rem;
+        margin-bottom: 2rem;
+    }
+    .cards {
+        display: flex;
+        flex-direction: column;
+        padding: 2rem 0;
+    }
+    .card-content img {
+        margin-bottom: 2rem;
+    }
+    .card-content p {
+        font-size: 1.1rem;
+        font-weight: 900;
+        margin-bottom: 2rem;
+    }
+    .card-content span {
+        font-size: 1.2rem;
+    }
+    .card-content cite {
+        font-size: 1rem;
+    }
+
+    /* projects section styling */
+    .projects-section img {
+        width: 50%;
+    }
+
+    /* footer section stlying */
+    .footer-logo {
+        margin-bottom: 2rem;
+    }
+    .footer-section .footer-menu li {
+        margin-bottom: 5rem;
+    }
+    .footer-section .footer-menu li a {
+        font-size: 1.3rem;
+        margin: 0 1.5rem;
     }
     
 }

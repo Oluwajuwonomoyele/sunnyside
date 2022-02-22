@@ -16,6 +16,8 @@
 --primary: #3dbeff;
 --black: #000;
 --footer-primary: #90d4c5;
+--fraunces: 'Fraunces', sans-serif;
+--barlow: 'Barlow', sans-serif;
 }
 *,
 *::before,
@@ -51,7 +53,7 @@ a {
     padding: 0.4rem 3rem;
 }
 .logo a {
-    font-family: 'Fraunces', Arial, Helvetica, sans-serif;
+    font-family: 'Fraunces', sans-serif;
     color: var(--white);
     font-size: 1.5rem;
 }
